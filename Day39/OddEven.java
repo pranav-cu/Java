@@ -1,3 +1,5 @@
+package com.chitkara.Day39;
+
 public class OddEven {
     public static void main(String [] args){
         int a=5;
