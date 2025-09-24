@@ -1,13 +1,11 @@
-package com.chitkara.Day39;
+package com.chitkara.Day40;
 import java.util.Scanner;
-public class Star {
+public class Odd_star {
     public static void main(String [] args){
-        Scanner INN= new Scanner(System.in);
-        System.out.print("Enter Rows: ");
-        int row= INN.nextInt();
-        int i,j;
-        for(i=0;i<row;i++){
-            for(j=0;j<row-i;j++){
+        Scanner Inn= new Scanner(System.in);
+        int Rows=Inn.nextInt(),i,j;
+        for(i=0;i<Rows;i++){
+            for(j=0;j<Rows-i;j++){
                 System.out.print(" ");
             }
             for(j=0;j<=i;j++){
@@ -15,6 +13,5 @@ public class Star {
             }
             System.out.println();
         }
-        }
     }
-
+}
