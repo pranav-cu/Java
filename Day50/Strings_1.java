@@ -5,12 +5,11 @@ import java.util.Locale;
 public class Strings_1 {
     public static void main(String[] args) {
         String str = new String("ALMONDY");
-        str =str.concat(" roast");
-        System.out.println(str);
-        str=str.toLowerCase();
-        System.out.println(str);
-        str=str.replace('d','e');
-        System.out.println(str);
+
+
+        System.out.println(str.concat(" roast"));
+        System.out.println(str.toLowerCase());
+        System.out.println(str.replace('d','e'));
         System.out.println("Substring: "+str.substring(2,7));
 
         StringBuffer sb= new StringBuffer();
